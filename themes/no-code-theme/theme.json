@@ -1,0 +1,155 @@
+{
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"color": {
+			"defaultGradients": false,
+			"defaultDuotone": false,
+			"customGradient": false,
+			"customDuotone": false,
+			"palette": [
+				{
+					"slug": "grey",
+					"color": "#e5e5e5",
+					"name": "Grey"
+				},
+				{
+					"slug": "navy-blue",
+					"color": "#002244",
+					"name": "Navy Blue"
+				},
+				{
+					"slug": "orange",
+					"color": "#FF6600",
+					"name": "Orange"
+				},
+				{
+					"slug": "baby-blue",
+					"color": "#749cc1",
+					"name": "Baby Blue"
+				},
+				{
+					"slug": "transparent",
+					"color": "transparent",
+					"name": "transparent"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "1400px",
+			"wideSize": "1800px"
+		},
+		"spacing": {
+			"units": [ "px", "em", "rem", "vh", "vw", "%" ]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "System (Roboto, Segoe UI, Ubuntu)",
+					"slug": "system",
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif"
+				},
+				{
+					"name": "Montserrat",
+					"slug": "montserrat",
+					"fontFamily": "\"Montserrat\", sans-serif",
+					"fontFace": [
+						{
+							"src": [ "file:./assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf" ],
+							"fontStyle": "italic",
+							"fontWeight": "100 900"
+						},
+						{
+							"src": [ "file:./assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf" ],
+							"fontStyle": "normal",
+							"fontWeight": "100 900"
+						}
+					]
+				},
+				{
+					"name": "Open Sans",
+					"slug": "open-sans",
+					"fontFamily": "\"Open Sans\", sans-serif",
+					"fontFace": [
+						{
+							"src": ["file:./assets/fonts/open-sans/OpenSans-Italic-VariableFont_wght.ttf"],
+							"fontStyle": "italic",
+							"fontWeight": "100-900"
+						},
+						{
+							"src": ["file:./assets/fonts/open-sans/OpenSans-VariableFont_wght.ttf"],
+							"fontStyle": "normal",
+							"fontWeight": "100-900"
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"p": {
+				"typography": { "fontSize": "16px" }
+			},
+			"h1": {
+				"typography": { 
+					"fontSize": "32px",
+					"textTransform": "uppercase" 
+				}
+			},
+			"h2": {
+				"typography": {
+				"fontSize": "28px",
+				"textTransform": "uppercase" 
+			}
+			},
+			"h3": {
+				"typography": { "fontSize": "24px" }
+			},
+			"blockquote": {
+				"typography": { "fontSize": "20px" }
+			},
+			"pre": {
+				"typography": { 
+					"fontFamily": "Courier New, monospace", 
+					"fontSize": "14px" 
+				},
+				"color": { "background": "#f5f5f5" }
+			},
+			"code": {
+				"typography": { "fontFamily": "Courier New, monospace", "fontSize": "14px" },
+				"color": { "text": "#e74c3c" }
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system)"
+		},
+		"color": {
+			"background": "var(--wp--preset--color--navy-blue)",
+			"text": "var(--wp--preset--color--navy-grey)"
+		},
+		"spacing": {
+			"blockGap": "1.7rem",
+			"padding": {
+				"top": "var(--wp--preset--spacing--120)",
+				"right": "var(--wp--preset--spacing--120)",
+				"bottom": "var(--wp--preset--spacing--120)",
+				"left": "var(--wp--preset--spacing--120)"
+			}
+		}
+	},
+	"templateParts": [
+		{
+			"name": "header",
+			"title": "Header",
+			"area": "header"
+		},
+		{
+			"name": "footer",
+			"title": "Footer",
+			"area": "footer"
+		}
+	]
+}
