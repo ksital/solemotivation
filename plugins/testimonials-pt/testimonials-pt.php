@@ -2,9 +2,9 @@
  * Plugin Name: Testimonials Post Type
  */
 
-add_action( 'init', 'wpdocs_register_announcement_cpt' );
+add_action( 'init', 'testimonials-pt' );
 
-function wpdocs_register_announcement_cpt() {
+function testimonials-pt() {
 
     $labels = array(
 
