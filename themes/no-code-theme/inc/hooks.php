@@ -3,7 +3,7 @@
  * Enqueue the block editor assets.
  */
 
-function sole_motivation_block_editor_assets() {
+function sole_motivation_enqueue_block_editor_assets() {
 	wp_enqueue_script(
 		'sole-motivation-block-editor',
 		get_theme_file_uri( 'assets/js/block-editor.js' ),
@@ -15,12 +15,12 @@ function sole_motivation_block_editor_assets() {
 	);
 }
 
-add_action( 'enqueue_block_editor_assets', 'sole_motivation_block_editor_assets' );
+add_action( 'enqueue_block_editor_assets', 'sole_motivation_enqueue_block_editor_assets' );
 
-function sole_motivation_block__assets() {
-	wp_enqueue_script(
+function sole_motivation_enqueue_block_assets() {
+	wp_enqueue_style(
 		'sole-motivation-block-styles',
-		get_theme_file_uri( 'assets/css/block-styles.js' ),
+		get_theme_file_uri( 'assets/css/block-styles.css' ),
 	);
 }
-add_action( 'enqueue_block_assets', 'sole_motivation_block_assets' );
+add_action( 'enqueue_block_assets', 'sole_motivation_enqueue_block_assets' );

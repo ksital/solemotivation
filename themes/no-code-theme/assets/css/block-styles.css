@@ -1,0 +1,12 @@
+.wp-block-buttons .wp-block-button.is-style-orange-cta{
+    background-color: #FF6600;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.wp-block-buttons .wp-block-button.is-style-orange-cta:hover,.wp-block-button.is-style-orange-cta:focus{
+    background-color: #cc5200;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+}
