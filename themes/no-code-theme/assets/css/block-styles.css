@@ -1,12 +1,33 @@
-.wp-block-buttons .wp-block-button.is-style-orange-cta{
-    background-color: #FF6600;
-    color: #000000;
-    text-transform: uppercase;
-    font-weight: 600;
+.wp-block-buttons .wp-block-button.is-style-orange-cta .wp-block-button__link {
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
 }
 
-.wp-block-buttons .wp-block-button.is-style-orange-cta:hover,.wp-block-button.is-style-orange-cta:focus{
-    background-color: #cc5200;
+.wp-block-buttons .wp-block-button.is-style-orange-cta .wp-block-button__link:hover,
+.wp-block-buttons .wp-block-button.is-style-orange-cta .wp-block-button__link:focus {
+    background-color: #CC5200 !important;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
     transform: scale(1.05);
+}
+
+button.wp-element-button.add_to_cart_button.ajax_add_to_cart.product_type_simple {
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #002244;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    width: 100%;
+}
+
+/* Hover and focus states */
+button.wp-element-button.add_to_cart_button.ajax_add_to_cart.product_type_simple:hover,
+button.wp-element-button.add_to_cart_button.ajax_add_to_cart.product_type_simple:focus {
+    background-color: #FF6600;
+    color: #ffffff;
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
