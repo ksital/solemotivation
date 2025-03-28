@@ -15,10 +15,11 @@
 
 /* Base state for the add to cart*/
 button.wp-element-button.add_to_cart_button.ajax_add_to_cart.product_type_simple {
-    color: #002244; /* Deep navy for text */
+    color: #002244;
     font-weight: 600;
     letter-spacing: 0.5px;
     width: 100%;
+    border: none;
     cursor: pointer;
 }
 
