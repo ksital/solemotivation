@@ -13,20 +13,19 @@
     transform: scale(1.05);
 }
 
+/* Base state for the add to cart*/
 button.wp-element-button.add_to_cart_button.ajax_add_to_cart.product_type_simple {
-    letter-spacing: 0.5px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    color: #002244;
+    color: #002244; /* Deep navy for text */
     font-weight: 600;
-    padding: 0.6rem 1.2rem;
+    letter-spacing: 0.5px;
     width: 100%;
+    cursor: pointer;
 }
 
-/* Hover and focus states */
+/* Hover and focus states for the add to cart button */
 button.wp-element-button.add_to_cart_button.ajax_add_to_cart.product_type_simple:hover,
 button.wp-element-button.add_to_cart_button.ajax_add_to_cart.product_type_simple:focus {
-    background-color: #FF6600;
+    background-color: #FF6600; 
     color: #ffffff;
     transform: translateY(-2px) scale(1.03);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
