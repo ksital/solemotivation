@@ -1,0 +1,87 @@
+/* ========== Contact Form 7 — SoleMotivation Styling ========== */
+
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/* Global font for all form elements */
+.wpcf7, .wpcf7 form, .wpcf7 input, .wpcf7 textarea, .wpcf7 label {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Label styling */
+.wpcf7 form label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+/* Input and textarea fields */
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea {
+    font-size: 16px;
+    color: #002244;
+    background-color: #ffffff;
+    border: 1px solid #A6A6A6;
+    padding: 0.4rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.wpcf7 input[type="text"]:focus, .wpcf7 input[type="email"]:focus, .wpcf7 textarea:focus {
+    border-color: #002244;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 34, 68, 0.15);
+}
+
+/* Submit button - Consistent with theme buttons */
+.wpcf7 input[type="submit"] {
+    background-color: #749cc1;
+    color: #002244;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+  /* Hover & focus effect */
+.wpcf7 input[type="submit"]:hover, .wpcf7 input[type="submit"]:focus {
+    background-color: #FF6600; 
+    color: #ffffff;
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Error tips and messages */
+.wpcf7-not-valid-tip {
+    color: #FF6600;
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.wpcf7-response-output {
+    font-size: 14px;
+    padding: 12px;
+    margin-top: 16px;
+    background-color: #fff5f0;
+    border: 1px solid #FF6600;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 600px) {
+    .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .wpcf7 input[type="submit"] {
+        width: 100%;
+        padding: 12px;
+    }
+}
