@@ -13,8 +13,6 @@
     font-weight: 600;
     font-size: 16px;
     color: #ffffff;
-    margin-top: 16px;
-    margin-bottom: 6px;
     display: block;
 }
 
@@ -49,7 +47,7 @@
     border: none;
 }
 
-  /* Hover & focus effect */
+/* Hover & focus effect */
 .wpcf7 input[type="submit"]:hover, .wpcf7 input[type="submit"]:focus {
     background-color: #FF6600; 
     color: #ffffff;
@@ -62,15 +60,20 @@
     color: #FF6600;
     font-size: 13px;
     margin-top: -10px;
-    margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .wpcf7-response-output {
     font-size: 14px;
-    padding: 12px;
     margin-top: 16px;
-    background-color: #fff5f0;
-    border: 1px solid #FF6600;
+}
+
+.wpcf7 form .wpcf7-response-output {
+    border: none;
+    color: #FF6600;
+    font-weight: 600;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 /* Mobile responsive */
